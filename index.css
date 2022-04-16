@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#header{
+    height: 10vh;
+    background-color: rgb(145, 145, 145);
+}
+#pro-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#row{
+    display: flex;
+    margin: 50px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.box{
+    border-radius: 7px;
+    margin: 5px;
+    width: 264px;
+    height: 150px;
+    background-color: rgb(216, 161, 161);
+}

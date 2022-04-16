@@ -1,0 +1,19 @@
+body{
+    background-color: bisque;
+}
+#container{
+    background-color: rgb(249, 174, 60);
+    border: 5px solid black;
+    height: 275px;
+    width: 750px;
+    margin: auto;
+    text-align: center;
+}
+#btn{
+    margin: 50px auto ;
+    height: 50px;
+    width: 250px;
+    font-size: 25px;
+    background-color: aquamarine;
+}
+
