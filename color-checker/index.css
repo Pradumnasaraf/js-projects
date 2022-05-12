@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#user-ipt{
+    background-color: aqua;
+    width: 25vw;
+    height: 5vh;
+    font-size: 3vh;
+    text-align: center;
+    border: none;
+}
+#check-btn{
+    width: 10vw;
+    height: 6vh;
+    font-size: 2.5vh;
+    border-radius: 30px;
+    border: palegoldenrod solid 5px;
+}
+h2{
+    text-align: center;
+}
