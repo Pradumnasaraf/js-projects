@@ -36,17 +36,34 @@ i:hover{
     background-color:rgba(255, 255, 255, 0.507) ;
     color: rgba(0, 0, 0, 0.7);
 }
-.text{
+.description{
+    text-transform: capitalize;
+    margin-left: 8px;
+
+}
+.temp{
+    margin: 0;
+    margin-bottom: 0.4em;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.search-bar{
     height: 2.0em;
     background-color: rgba(192, 192, 192, 0.192);
     padding: 0.5m;
+    padding-left: 1.5em;
     color: white;
     outline: none;
     font-family: inherit;
     font-size: 100%;
-    text-align: center;
     border: none;
     border-radius: 24px;
     cursor: pointer;
     width: 70%;
+    text-transform: capitalize;
+}
+.loading{
+    display: none;
 }
